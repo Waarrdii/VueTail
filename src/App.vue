@@ -7,6 +7,10 @@ import { RouterLink, RouterView } from 'vue-router'
   <RouterView />
 </template>
 
-<style scoped>
 
+<style>
+@config '../tailwind.config.cjs'
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 </style>

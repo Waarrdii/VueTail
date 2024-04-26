@@ -1,9 +1,5 @@
 <template>
-<div class="container-xl mx-auto flex flex-wrap items-center justify-between bg-slate-300">
-    <Menu />
-</div>
-
-
+<Menu/>
 </template>
 
 <script setup>
